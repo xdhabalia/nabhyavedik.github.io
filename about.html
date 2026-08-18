@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Vedank Numbers</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #081428; color: #ccd6f6; line-height: 1.8; }
+        a { color: #d4a843; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .gold-line { height: 2px; background: linear-gradient(90deg, transparent, #d4a843, transparent); }
+
+        header { padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; }
+        header nav a { margin-left: 24px; font-size: 14px; color: #8892b0; }
+        header nav a:hover { color: #d4a843; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .logo-icon { width: 32px; height: 32px; background: #d4a843; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #081428; font-size: 18px; }
+        .logo-text { font-size: 18px; font-weight: 600; color: #e8d5a3; }
+
+        .content { max-width: 700px; margin: 0 auto; padding: 40px 24px 60px; }
+        .content h1 { font-size: 28px; color: #e8d5a3; margin-bottom: 24px; }
+        .content h2 { font-size: 18px; color: #64ffda; margin-top: 28px; margin-bottom: 8px; }
+        .content p { color: #8892b0; font-size: 15px; margin-bottom: 12px; }
+
+        .creator { background: #0f2240; border: 1px solid #1e3a5f; border-radius: 12px; padding: 24px; margin: 24px 0; }
+        .creator h3 { color: #e8d5a3; font-size: 18px; margin-bottom: 8px; }
+        .creator p { color: #8892b0; font-size: 14px; margin-bottom: 4px; }
+
+        .roadmap { margin: 24px 0; }
+        .roadmap-item { display: flex; gap: 12px; margin-bottom: 16px; align-items: flex-start; }
+        .roadmap-dot { width: 12px; height: 12px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+        .dot-live { background: #10b981; }
+        .dot-soon { background: #d4a843; }
+        .dot-planned { background: #3d5a80; }
+        .roadmap-item h4 { color: #ccd6f6; font-size: 15px; margin-bottom: 2px; }
+        .roadmap-item p { font-size: 13px; margin: 0; }
+
+        .badge { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 8px; font-weight: 500; }
+        .badge-live { background: #10b981; color: #081428; }
+        .badge-soon { background: #d4a843; color: #081428; }
+        .badge-planned { background: #1e3a5f; color: #8892b0; }
+
+        footer { padding: 40px 24px; text-align: center; }
+        footer p { color: #3d5a80; font-size: 11px; }
+        .footer-links { margin-bottom: 8px; }
+        .footer-links a { margin: 0 12px; font-size: 13px; color: #8892b0; }
+
+        @media (max-width: 600px) {
+            .content h1 { font-size: 22px; }
+            header nav a { margin-left: 12px; font-size: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-icon">V</div>
+        <span class="logo-text">Vedank Numbers</span>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+    </nav>
+</header>
+<div class="gold-line"></div>
+
+<div class="content">
+    <h1>About Vedank</h1>
+
+    <p>Vedank brings ancient Vedic wisdom into accessible digital tools. Starting with numerology, expanding to predictions, personality assessment, and relationship compatibility.</p>
+
+    <div class="creator">
+        <h3>Nabhya Vedik</h3>
+        <p>Creator of Vedank Numbers</p>
+        <p>Vaastu specialist with deep expertise in Vedic numerology. The Vedank suite of tools is designed to make traditional knowledge accessible to everyone — from practitioners who need precision to individuals seeking guidance.</p>
+        <p style="margin-top: 12px;">
+            <a href="mailto:adhabali@gmail.com">adhabali@gmail.com</a> &nbsp;|&nbsp; +91 733 757 1593
+        </p>
+    </div>
+
+    <h2>The Vision</h2>
+    <p>Numerology has guided decisions for centuries. Vedank digitises this wisdom without diluting it. Every computation follows traditional Vedic principles — the 3×3 grid, the dasha system, the yog classifications — adapted for modern use but faithful to the source.</p>
+
+    <p>The free numerology tools build trust and awareness. For those who need deeper guidance, personalised Vaastu consultation provides the natural next step — simple, non-structural corrections applicable even to rented properties.</p>
+
+    <h2>Product Roadmap</h2>
+    <div class="roadmap">
+        <div class="roadmap-item">
+            <div class="roadmap-dot dot-live"></div>
+            <div>
+                <h4>Vedank Numbers <span class="badge badge-live">Live</span></h4>
+                <p>Birth grid, dashas, observations, event planning, date comparison, shareable cards. Available on Google Play.</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap-dot dot-soon"></div>
+            <div>
+                <h4>Vedank Predict <span class="badge badge-soon">Coming Soon</span></h4>
+                <p>Personalised predictions for career, finance, health, relationships. Self-assessment questionnaire. Relationship compatibility analysis.</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap-dot dot-planned"></div>
+            <div>
+                <h4>Vedank Compare <span class="badge badge-planned">Planned</span></h4>
+                <p>Deep relationship compatibility across five dimensions. Destiny pairing. Dasha synchronisation. Vaastu bridge recommendations.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>The Numerology System</h2>
+    <p>Vedank Numbers uses a custom Vedic numerology system. It is not Lo Shu. It is not Western numerology. The 3×3 grid layout, digit placement rules, dasha weight distribution, and yog detection follow a specific methodology developed through years of practice and consultation.</p>
+    <p>The app's algorithm computes accurately but is not a substitute for professional consultation. For confirmed readings and personalised guidance, consult a reputed Numerologist.</p>
+
+    <h2>Contact</h2>
+    <p>For consultations, feedback, or questions:</p>
+    <p>
+        Email: <a href="mailto:adhabali@gmail.com">adhabali@gmail.com</a><br>
+        Phone: +91 733 757 1593<br>
+        Website: <a href="https://nabhyavedik.com">nabhyavedik.com</a>
+    </p>
+</div>
+
+<div class="gold-line"></div>
+<footer>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+    </div>
+    <p>© 2026 Vedank. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
