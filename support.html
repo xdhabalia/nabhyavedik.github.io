@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & FAQ — Vedank Numbers</title>
+    <meta name="description" content="Frequently asked questions and support for Vedank Numbers Vedic Numerology app.">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Inter',sans-serif;background:#081428;color:#ccd6f6;line-height:1.8}
+        a{color:#d4a843;text-decoration:none}a:hover{text-decoration:underline}
+        .gold-line{height:2px;background:linear-gradient(90deg,transparent,#d4a843,transparent)}
+        header{padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+        header nav a{margin-left:20px;font-size:14px;color:#8892b0}header nav a:hover{color:#d4a843}
+        .logo{display:flex;align-items:center;gap:10px}
+        .logo-icon{width:32px;height:32px;background:#d4a843;border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#081428;font-size:18px}
+        .logo-text{font-size:18px;font-weight:600;color:#e8d5a3}
+        .content{max-width:700px;margin:0 auto;padding:40px 24px 60px}
+        .content h1{font-size:28px;color:#e8d5a3;margin-bottom:24px}
+        .content h2{font-size:18px;color:#64ffda;margin-top:28px;margin-bottom:8px}
+        .content p{color:#8892b0;font-size:15px;margin-bottom:12px}
+        .faq{margin:20px 0}
+        .faq-item{background:#0f2240;border:1px solid #1e3a5f;border-radius:10px;margin-bottom:12px;overflow:hidden}
+        .faq-q{padding:16px 20px;cursor:pointer;color:#e8d5a3;font-weight:600;font-size:15px;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#112a4a}
+        .faq-a{padding:0 20px 16px;color:#8892b0;font-size:14px;display:none}
+        .faq-item.open .faq-a{display:block}
+        .faq-item.open .faq-arrow{transform:rotate(180deg)}
+        .faq-arrow{transition:transform 0.2s;color:#d4a843}
+        .contact-box{background:#0f2240;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-top:32px;text-align:center}
+        .contact-box h3{color:#e8d5a3;margin-bottom:8px}
+        .contact-box p{color:#8892b0;font-size:14px}
+        footer{padding:40px 24px;text-align:center}
+        footer p{color:#3d5a80;font-size:11px}
+        .footer-links{margin-bottom:8px}.footer-links a{margin:0 12px;font-size:13px;color:#8892b0}
+        @media(max-width:600px){.content h1{font-size:22px}header nav a{margin-left:10px;font-size:12px}}
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo"><div class="logo-icon">V</div><span class="logo-text">Vedank Numbers</span></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="offers.html">Offers</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+    </nav>
+</header>
+<div class="gold-line"></div>
+
+<div class="content">
+    <h1>Support & FAQ</h1>
+
+    <div class="faq">
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What is Vedank Numbers?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Vedank Numbers is a free Vedic Numerology app that computes your birth grid, dasha periods, and classified observations from any date of birth. It uses a custom Vedic system — not Lo Shu, not Western numerology.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Is the app free?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Yes, completely free. No in-app purchases, no ads, no hidden costs. The app works fully offline — no internet needed after installation.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Does the app collect my data?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">No. All data stays on your device. Nothing is sent to any server. Read our complete <a href="privacy.html">Privacy Policy</a> for details.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How accurate is this numerology system?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">The app computes grids and dashas algorithmically based on traditional Vedic numerology principles. However, numerology is an interpretive art. We recommend using the app as a reference tool and consulting a reputed Numerologist for confirmed readings and personal guidance.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What is the difference between this and Lo Shu grid?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Vedank Numbers uses a different grid layout [3,1,9 / 6,7,5 / 2,8,4] and a distinct set of rules for digit placement, dasha computation, and yog classification. It follows Vedic numerology traditions, not Chinese Lo Shu numerology.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Can I use a future date of birth?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Yes. Enter any future date in Birth Date mode to see the grid. However, dashas will only be shown from the entered date forward — no dasha periods are computed before the birth date.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How does the date comparison work?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">In the Plan Future Event mode, toggle two dates using the switches. Tap "Compare the Dates" to see both grids side by side with 10 years of Main and Antar dasha numbers, colour-coded to show grid matches, destiny alignment, and cautious numbers.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What do the green and red chips mean?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Green chips are favourable observations (yogs) — strengths created by your birth date numbers. Red chips are areas that need awareness, where you can shape your karma through conscious effort.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How do I share a comparison?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">On the Date Comparison screen, tap the Share button. The app generates an image card with both grids, dasha details, and branding. Your phone's native share sheet opens — choose WhatsApp, email, or any app to share.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Can I save my entries?<span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Yes. The app automatically saves your last 4 birth date entries and 1 event plan entry on your device. Use the dropdown on the data entry screen to reload any saved entry.</div>
+        </div>
+    </div>
+
+    <div class="contact-box">
+        <h3>Need More Help?</h3>
+        <p>Contact us directly:</p>
+        <p style="margin-top:8px">
+            Email: <a href="mailto:adhabali@gmail.com">adhabali@gmail.com</a><br>
+            Phone: +91 733 757 1593
+        </p>
+        <p style="margin-top:12px;font-size:13px">For personalised numerology or Vaastu consultation,<br>see our <a href="offers.html">Offers</a> page.</p>
+    </div>
+</div>
+
+<div class="gold-line"></div>
+<footer>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="offers.html">Offers</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+    </div>
+    <p>© 2026 Vedank. All rights reserved.</p>
+</footer>
+</body>
+</html>
